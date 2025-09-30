@@ -1,0 +1,14 @@
+{
+  "name": "blender-mcp",
+  "version": "0.1.0",
+  "mcpServers": {
+    "wandb": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/ahujasid/blender-mcp",
+        "python main.py"
+      ]
+    }
+  }
+}
