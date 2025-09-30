@@ -3,12 +3,8 @@
   "version": "0.1.0",
   "mcpServers": {
     "blender": {
-      "command": "uvx",
-      "args": [
-        "--from",
-        "git+https://github.com/ahujasid/blender-mcp",
-        "python main.py"
-      ]
+       "httpUrl": "http://localhost:9876",
+        "trust": true,
     }
   }
 }
